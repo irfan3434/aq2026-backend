@@ -22,7 +22,6 @@ const ALLOWED_MIMES = new Set([
   'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
   'image/jpeg',
   'image/png',
-  'image/webp',
 ])
 
 const storage = multer.diskStorage({
